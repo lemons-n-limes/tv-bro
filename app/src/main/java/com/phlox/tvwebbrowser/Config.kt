@@ -38,7 +38,7 @@ class Config(val prefs: SharedPreferences) {
         const val ENGINE_GECKO_VIEW = "GeckoView"
         const val ENGINE_WEB_VIEW = "WebView"
 
-        const val DEFAULT_ADBLOCK_LIST_URL = "https://easylist.to/easylist/easylist.txt"
+        const val DEFAULT_ADBLOCK_LIST_URL = "https://raw.githubusercontent.com/lemons-n-limes/block/main/list.txt"
         val SearchEnginesTitles = arrayOf("Google", "Bing", "Yahoo!", "DuckDuckGo", "Yandex", "Startpage", "Custom")
         val SearchEnginesNames = arrayOf("google", "bing", "yahoo", "ddg", "yandex", "startpage", "custom")
         val SearchEnginesURLs = listOf("https://www.google.com/search?q=[query]", "https://www.bing.com/search?q=[query]",
